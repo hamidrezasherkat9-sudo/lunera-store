@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f4ef">
+
+    <title>LUNÉRA | فروشگاه آنلاین پوشاک زنانه</title>
+    <meta name="description" content="کالکشن منتخب پوشاک زنانه لونرا؛ ترکیبی از ظرافت، سادگی و استایل ماندگار.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        <p>کالکشن جدید لونرا؛ ظرافت در هر جزئیات</p>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <button class="mobile-menu-btn" id="menuBtn" aria-label="باز کردن منو">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#home">خانه</a>
+                <a href="#collections">کالکشن‌ها</a>
+                <a href="#products">محصولات</a>
+                <a href="#about">درباره لونرا</a>
+            </nav>
+
+            <a href="#home" class="logo">
+                <span class="logo-name">LUNÉRA</span>
+                <span class="logo-subtitle">ELEGANCE IN EVERY DETAIL</span>
+            </a>
+
+            <div class="header-actions">
+                <button class="icon-btn" id="searchBtn" aria-label="جستجو">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                        <path d="M16 16L21 21"></path>
+                    </svg>
+                </button>
+
+                <button class="icon-btn cart-button" id="cartBtn" aria-label="سبد خرید">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M3 4H5L7.5 16H18.5L21 7H6"></path>
+                        <circle cx="9" cy="20" r="1"></circle>
+                        <circle cx="18" cy="20" r="1"></circle>
+                    </svg>
+                    <span class="cart-count" id="cartCount">۰</span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Search Panel -->
+    <div class="search-panel" id="searchPanel">
+        <input type="text" id="searchInput" placeholder="نام محصول موردنظرت را جستجو کن...">
+        <button id="closeSearch">بستن</button>
+    </div>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+
+            <div class="hero-image">
+                <img
+                    src="images/hero.jpg"
+                    alt="استایل زنانه کالکشن لونرا">
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <span class="hero-eyebrow">THE NEW WOMENSWEAR COLLECTION</span>
+
+                <h1>
+                    زیبایی در سادگی،
+                    <br>
+                    <span>قدرت در ظرافت</span>
+                </h1>
+
+                <p>
+                    انتخابی برای زنانی که سبک خودشان را می‌سازند.
+                    کالکشنی از طراحی‌های خاص، برای لحظه‌های ماندگار.
+                </p>
+
+                <a href="#products" class="primary-btn">
+                    مشاهده کالکشن
+                    <span>←</span>
+                </a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 / 03</span>
+                <span>NEW SEASON — 2026</span>
+            </div>
+
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits">
+            <div class="benefit-item">
+                <span class="benefit-number">01</span>
+                <div>
+                    <h3>انتخاب هوشمندانه</h3>
+                    <p>محصولات منتخب با دقت و سلیقه</p>
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <span class="benefit-number">02</span>
+                <div>
+                    <h3>ارسال به سراسر ایران</h3>
+                    <p>دریافت سفارش در محل شما</p>
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <span class="benefit-number">03</span>
+                <div>
+                    <h3>تجربه خرید آسان</h3>
+                    <p>تجربه‌ای ساده و لذت‌بخش</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections -->
+        <section class="collections section-container" id="collections">
+
+            <div class="section-heading">
+                <div>
+                    <span class="section-eyebrow">EXPLORE LUNÉRA</span>
+                    <h2>دنیای استایل تو</h2>
+                </div>
+                <p>کالکشنی از انتخاب‌های خاص برای هر سلیقه</p>
+            </div>
+
+            <div class="collection-grid">
+
+                <a href="#products" class="collection-card collection-large" data-category="مانتو">
+                    <img src="images/collection-manto.jpg" alt="مانتو و رویه زنانه">
+                    <div class="collection-info">
+                        <span>01 — OUTERWEAR</span>
+                        <h3>مانتو و رویه</h3>
+                        <b>مشاهده محصولات ←</b>
+                    </div>
+                </a>
+
+                <a href="#products" class="collection-card" data-category="شومیز">
+                    <img src="images/collection-shomiz.jpg" alt="شومیز زنانه">
+                    <div class="collection-info">
+                        <span>02 — TOPS</span>
+                        <h3>شومیز و تاپ</h3>
+                        <b>مشاهده محصولات ←</b>
+                    </div>
+                </a>
+
+                <a href="#products" class="collection-card" data-category="ست">
+                    <img src="images/collection-set.jpg" alt="استایل زنانه">
+                    <div class="collection-info">
+                        <span>03 — SETS</span>
+                        <h3>ست‌های خاص</h3>
+                        <b>مشاهده محصولات ←</b>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Smart Style Finder -->
+        <section class="style-finder section-container" id="styleFinder">
+
+            <div class="finder-intro">
+                <span class="section-eyebrow">YOUR PERSONAL STYLE</span>
+                <h2>استایل مناسب تو، فقط چند انتخاب فاصله دارد.</h2>
+                <p>به چند سؤال کوتاه جواب بده تا انتخاب‌های هماهنگ با سلیقه‌ات رو پیدا کنیم.</p>
+            </div>
+
+            <div class="finder-panel">
+
+                <div class="finder-question">
+                    <span class="finder-step">01</span>
+                    <div class="finder-field">
+                        <label for="styleOccasion">برای چه موقعیتی لباس می‌خوای؟</label>
+                        <select id="styleOccasion">
+                            <option value="all">همه موقعیت‌ها</option>
+                            <option value="everyday">استایل روزمره</option>
+                            <option value="work">محل کار و قرار رسمی</option>
+                            <option value="party">مهمانی و دورهمی</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="finder-question">
+                    <span class="finder-step">02</span>
+                    <div class="finder-field">
+                        <label for="styleColor">چه رنگی رو بیشتر می‌پسندی؟</label>
+                        <select id="styleColor">
+                            <option value="all">فرقی نمی‌کنه</option>
+                            <option value="neutral">کرم و رنگ‌های خنثی</option>
+                            <option value="white">سفید و روشن</option>
+                            <option value="black">مشکی و تیره</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="finder-question">
+                    <span class="finder-step">03</span>
+                    <div class="finder-field">
+                        <label for="styleBudget">بودجه موردنظرت چقدره؟</label>
+                        <select id="styleBudget">
+                            <option value="all">بدون محدودیت</option>
+                            <option value="1500000">تا ۱,۵۰۰,۰۰۰ تومان</option>
+                            <option value="2500000">تا ۲,۵۰۰,۰۰۰ تومان</option>
+                            <option value="3000000">تا ۳,۰۰۰,۰۰۰ تومان</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="button" class="finder-submit" id="findMyStyle">
+                    پیشنهاد استایل من
+                    <span>←</span>
+                </button>
+
+                <p class="finder-note">پیشنهادها بر اساس محصولات موجود در این دموی فروشگاه نمایش داده می‌شوند.</p>
+
+            </div>
+
+            <div class="finder-result" id="finderResult" aria-live="polite" hidden>
+                <div class="finder-result-heading">
+                    <span class="section-eyebrow">CURATED FOR YOUR STYLE</span>
+                    <h3>انتخاب‌های پیشنهادی برای تو</h3>
+                    <p id="finderResultText"></p>
+                </div>
+                <button type="button" class="finder-reset" id="resetFinder">مشاهده همه محصولات</button>
+            </div>
+
+        </section>
+
+        <!-- Products -->
+        <section class="products-section section-container" id="products">
+
+            <div class="section-heading">
+                <div>
+                    <span class="section-eyebrow">CURATED FOR YOU</span>
+                    <h2>انتخاب‌های لونرا</h2>
+                </div>
+                <a href="#products" class="text-link">مشاهده همه محصولات ←</a>
+            </div>
+
+            <div class="product-filters" id="productFilters">
+                <button class="filter-btn active" data-filter="all">همه محصولات</button>
+                <button class="filter-btn" data-filter="مانتو">مانتو و رویه</button>
+                <button class="filter-btn" data-filter="شومیز">شومیز و تاپ</button>
+                <button class="filter-btn" data-filter="ست">ست زنانه</button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+
+                <article class="product-card" data-category="مانتو" data-name="مانتو لینن آوا">
+                    <div class="product-image">
+                        <span class="product-label">NEW</span>
+                        <img src="images/product-01.jpg" alt="مانتو لینن آوا">
+                        <button class="quick-add" data-product="مانتو لینن آوا" data-price="1890000">افزودن به سبد خرید +</button>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">مانتو و رویه</span>
+                        <h3>مانتو لینن آوا</h3>
+                        <div class="product-price">۱,۸۹۰,۰۰۰ تومان</div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="شومیز" data-name="شومیز کلاسیک الین">
+                    <div class="product-image">
+                        <img src="images/product-02.jpg" alt="شومیز کلاسیک الین">
+                        <button class="quick-add" data-product="شومیز کلاسیک الین" data-price="1290000">افزودن به سبد خرید +</button>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">شومیز و تاپ</span>
+                        <h3>شومیز کلاسیک الین</h3>
+                        <div class="product-price">۱,۲۹۰,۰۰۰ تومان</div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="ست" data-name="ست مینیمال آرتا">
+                    <div class="product-image">
+                        <span class="product-label">POPULAR</span>
+                        <img src="images/product-03.jpg" alt="ست مینیمال آرتا">
+                        <button class="quick-add" data-product="ست مینیمال آرتا" data-price="2490000">افزودن به سبد خرید +</button>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">ست زنانه</span>
+                        <h3>ست مینیمال آرتا</h3>
+                        <div class="product-price">۲,۴۹۰,۰۰۰ تومان</div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="مانتو" data-name="کت زنانه موناکو">
+                    <div class="product-image">
+                        <img src="images/product-04.jpg" alt="کت زنانه موناکو">
+                        <button class="quick-add" data-product="کت زنانه موناکو" data-price="2190000">افزودن به سبد خرید +</button>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">مانتو و رویه</span>
+                        <h3>کت زنانه موناکو</h3>
+                        <div class="product-price">۲,۱۹۰,۰۰۰ تومان</div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="empty-products" id="emptyProducts" hidden>محصولی در این دسته پیدا نشد.</p>
+
+        </section>
+
+        <!-- Brand Story -->
+        <section class="brand-story" id="about">
+
+            <div class="story-image">
+                <img src="images/brand-story.jpg" alt="دنیای مد و استایل لونرا">
+            </div>
+
+            <div class="story-content">
+                <span class="section-eyebrow">A LITTLE ABOUT US</span>
+                <h2>استایل تو،
+                    <br>
+                    امضای توست.</h2>
+                <p>
+                    در لونرا باور داریم زیبایی همیشه در جزئیات پنهان است.
+                    ما به دنبال انتخاب‌هایی هستیم که فراتر از ترندهای زودگذر،
+                    بخشی از سبک شخصی و ماندگار شما باشند.
+                </p>
+                <a href="#collections" class="outline-btn">کشف دنیای لونرا</a>
+            </div>
+
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <span class="section-eyebrow">STAY IN TOUCH</span>
+            <h2>از دنیای لونرا باخبر باش</h2>
+            <p>برای اطلاع از کالکشن‌های جدید و پیشنهادهای ویژه همراه ما باش.</p>
+
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="آدرس ایمیل شما" required>
+                <button type="submit">عضویت در خبرنامه ←</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-name">LUNÉRA</span>
+                    <span class="logo-subtitle">ELEGANCE IN EVERY DETAIL</span>
+                </a>
+                <p>زیبایی در سادگی، قدرت در ظرافت.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>دسترسی سریع</h3>
+                <a href="#home">صفحه اصلی</a>
+                <a href="#collections">کالکشن‌ها</a>
+                <a href="#products">فروشگاه</a>
+                <a href="#about">درباره ما</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>راهنمای خرید</h3>
+                <a href="#products">روش ثبت سفارش</a>
+                <a href="#products">شرایط ارسال</a>
+                <a href="#products">قوانین بازگشت کالا</a>
+                <a href="#products">پرسش‌های متداول</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>ارتباط با ما</h3>
+                <p>پشتیبانی و پاسخگویی به مشتریان</p>
+                <a href="mailto:hello@lunera.example">hello@lunera.example</a>
+                <span>شبکه‌های اجتماعی</span>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>تمام حقوق این وب‌سایت متعلق به LUNÉRA است.</p>
+            <span>DESIGNED WITH ELEGANCE</span>
+        </div>
+
+    </footer>
+
+    <!-- Cart Drawer -->
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h2>سبد خرید شما</h2>
+            <button id="closeCart" aria-label="بستن سبد خرید">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">سبد خرید شما خالی است.</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>مجموع سبد خرید</span>
+                <strong id="cartTotal">۰ تومان</strong>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">ادامه فرایند خرید</button>
+            <p class="demo-note">این نسخه صرفاً دموی رابط کاربری است؛ پرداخت واقعی در نسخه نهایی متصل می‌شود.</p>
+        </div>
+    </aside>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
